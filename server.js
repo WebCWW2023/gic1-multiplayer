@@ -11,14 +11,14 @@ const webrtc = require("wrtc");
 const tokenGenerator = require("./tokenGeneration").generateToken;
 
 /*-----------------database connection-------------------*/
-// var con = mysql.createConnection({
+var con = mysql.createConnection({
  
-//   host: "13.200.71.91",
-//   user: "worldbeyond_worldbeyond2023",
-//   password: "e^gU@]1t_1YI",
-//   database: "worldbeyond_metaverse2023",
+  host: "13.200.71.91",
+  user: "worldbeyond_worldbeyond2023",
+  password: "e^gU@]1t_1YI",
+  database: "worldbeyond_metaverse2023",
   
-//   });
+  });
   
 
 app.use(express.static("."));
