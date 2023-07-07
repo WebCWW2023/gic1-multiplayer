@@ -119,7 +119,7 @@ var characterMeshRotation = {},
 var animationsArray = {};
 var characherMixerArray = {};
 var isAnimationExist = false;
-var isFirstTimeLoaded = false;
+var isFirstTimeLoaded = true;
 var isAnimationFirstTime = false;
 var loadingManager;
 /*-----------------raycaster-------------------*/
