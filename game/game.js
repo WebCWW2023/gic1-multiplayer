@@ -426,7 +426,8 @@ const init = () => {
           mainModel.scene.getObjectByName(item)
         );
         addBanner();
-		  startVoice();
+		    startVoice();
+        console.log('rupam test');
         isFirstTimeLoaded = false;
       }
     },
